@@ -28,7 +28,7 @@ def extract_diag_from_bpm(bpm_file, output_folder="output"):
 
     print(f".diag content extracted to {diag_folder}")
     time.sleep(0.2)
-    #clean_folders()
+    clean_folders()
     return diag_folder
 
 
